@@ -1,2 +1,8 @@
-# obsidian-job-dashboard
-This is a draft for my job dashboard built with Obsidian, Dataview, and Mermaid. 
+Hi! 
+
+This is an example of how I got a very simple dashboard to work with Obsidian. 
+
+You are to consider everything in this repository as a draft. Please do open pull requests and issues to chip in with your thoughts. 
+
+![](intro.png)
+

@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "01283961d45b3619",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffae7067f47185cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e7cc1cee2d2991f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jobs MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Jobs MOC"
+            }
+          },
+          {
+            "id": "e7d520e105d78464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "358399399ec2de48",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca2b438fffe36b5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2827dd9426aa1b4f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e7de4cb20c2df34a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e872073fb97bc4dc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c24e3e9a1a6b12d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "e21bd11c10e01a1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f2582b6d3db4ef1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "6b2fb24c93e830fd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "aaf69481d12a7da7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f4e8355fd2496d82",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "e7d520e105d78464",
+  "lastOpenFiles": [
+    "intro.png",
+    "Jobs MOC.md",
+    "README.md",
+    "jobs/Applied Research Scientist.md",
+    "jobs/Research Scientist.md",
+    "jobs/Research Scientist Comp Bio.md",
+    "jobs/Senior Research Engineer.md",
+    "jobs/Senior Researcher ML.md",
+    "jobs/Molecular Engineering Research Scientist.md",
+    "jobs/Governor.md",
+    "jobs/Investigator.md",
+    "jobs/ML Research Scientist.md",
+    "jobs/Research Scientist (Computer Vision).md",
+    "jobs/Research Engineer 2.md",
+    "jobs/Research Engineer.md",
+    "templates/jobs_template.md",
+    "templates",
+    "Welcome.md",
+    "jobs"
+  ]
+}
