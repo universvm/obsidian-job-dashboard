@@ -234,3 +234,44 @@ mermaidData += "```";
 dv.span(mermaidData);
 ```
 
+# Active
+```dataview
+table 
+    Role as "Role", 
+    Company as "Company", 
+    Status as "Status", 
+    row["Last Round"] as "Last Round",
+    row["Date Applied"] as "Date Applied", 
+    (date(today) - row["Date Last Interaction"]).days as "Days Since Last Interaction"
+from "jobs"
+where Status != "Rejected" and row["Date Applied"] >= date(2024-01-01)
+sort row["Date Last Interaction"] desc
+```
+
+# Waiting On
+```dataview
+table 
+    Role as "Role", 
+    Company as "Company", 
+    Status as "Status", 
+    row["Last Round"] as "Last Round",
+    row["Date Applied"] as "Date Applied", 
+    (date(today) - row["Date Last Interaction"]).days as "Days Since Last Interaction"
+from "jobs"
+where Status != "Rejected" and row["Date Applied"] >= date(2024-01-01) and row["Last Round"] = "Online Application" and row["Status"] = "Active" 
+sort row["Date Last Interaction"] desc
+```
+
+# Rejected
+```dataview
+table 
+    Role as "Role", 
+    Company as "Company", 
+    Status as "Status", 
+    row["Last Round"] as "Last Round",
+    row["Date Applied"] as "Date Applied", 
+    (date(today) - row["Date Last Interaction"]).days as "Days Since Last Interaction"
+from "jobs"
+where Status = "Rejected" and row["Date Applied"] >= date(2024-01-01)
+sort row["Date Last Interaction"] desc
+```
